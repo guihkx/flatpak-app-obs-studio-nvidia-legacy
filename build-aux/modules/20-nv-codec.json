@@ -11,8 +11,15 @@
         {
             "type": "git",
             "url": "https://github.com/FFmpeg/nv-codec-headers.git",
-            "tag": "n12.2.72.0",
-            "commit": "c69278340ab1d5559c7d7bf0edf615dc33ddbba7"
+            "tag": "n11.1.5.3",
+            "commit": "43d91706e097565f57b311e567f0219838bcc2f6",
+            "x-checker-data": {
+                "type": "git",
+                "tag-pattern": "^n([\\d.]+)$",
+                "versions": {
+                    "<": "12"
+                }
+            }
         }
     ]
 }
