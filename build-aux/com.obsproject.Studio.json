@@ -1,6 +1,7 @@
 {
     "id": "com.obsproject.Studio",
     "branch": "stable",
+    "separate-locales": false,
     "runtime": "org.kde.Platform",
     "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
