@@ -18,7 +18,7 @@ if(OS_LINUX AND NOT TARGET OBS::glad)
   add_subdirectory("${CMAKE_SOURCE_DIR}/deps/glad" "${CMAKE_BINARY_DIR}/deps/glad")
 endif()
 
-find_package(FFnvcodec 12 REQUIRED)
+find_package(FFnvcodec 11 REQUIRED)
 
 add_library(obs-nvenc MODULE)
 add_library(OBS::nvenc ALIAS obs-nvenc)
